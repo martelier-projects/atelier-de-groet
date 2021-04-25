@@ -1,4 +1,6 @@
-# Personal website
+# Atelier de Groet
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e8df406-a0de-4ecc-9a2a-f51161ded4a3/deploy-status)](https://app.netlify.com/sites/atelier-de-groet/deploys)
 
 ## Install and running the app
 
