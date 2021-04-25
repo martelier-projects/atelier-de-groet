@@ -1,0 +1,28 @@
+@import '../../../styles/base.scss';
+
+.list {
+  @include bare-list;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-gap: 1rem;
+}
+
+.list-item {
+  margin: 0;
+  padding: 1rem;
+  background-color: var(--layout-c);
+}
+
+.list-item[data-highlighted='row'] {
+  grid-row: span 2;
+  background-color: var(--layout-e);
+}
+.list-item[data-highlighted='column'] {
+  grid-column: span 2;
+  background-color: var(--layout-e);
+}
+.list-item[data-highlighted='both'] {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-color: var(--layout-e);
+}
