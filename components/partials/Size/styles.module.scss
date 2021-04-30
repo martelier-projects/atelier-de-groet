@@ -1,0 +1,21 @@
+@import '../../../styles/base.scss';
+
+.list,
+.size-list {
+  @include text-small;
+  display: flex;
+}
+
+.item {
+  margin: 0;
+  padding: 0;
+}
+
+.separator {
+  display: inline-block;
+  padding: 0 gap(tiny);
+}
+
+.unit {
+  padding-left: gap(tiny);
+}

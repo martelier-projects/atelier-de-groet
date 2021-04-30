@@ -1,5 +1,5 @@
 module.exports = {
-  webpack: config => {
+  webpack: (config, { isServer }) => {
     config.module.rules.push({
       test: /\.md$/,
       loader: 'frontmatter-markdown-loader',
@@ -9,6 +9,12 @@ module.exports = {
       test: /\.svg$/,
       use: ['@svgr/webpack'],
     })
+
+    if (!isServer) {
+      config.node = {
+        fs: 'empty',
+      }
+    }
 
     return config
   },

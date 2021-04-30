@@ -1,0 +1,28 @@
+@import '../../../styles/base.scss';
+
+.preview {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.caption {
+  @include text-large;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 1fr auto;
+  align-items: flex-end;
+  margin-top: gap(tiny);
+}
+.caption-title {
+  grid-column: span 2;
+}
+
+.sold {
+  @include text-small;
+  color: $red;
+}
