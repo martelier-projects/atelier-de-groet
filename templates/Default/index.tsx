@@ -1,11 +1,14 @@
+import type Page from '../../interfaces/Page'
+
 import FlexibleContent from '../../components/modules/FlexibleContent'
-import Page from '../../interfaces/Page'
+import SiteHeader from '../../components/modules/SiteHeader'
 
 import styles from './styles.module.scss'
 
 export default function DefaultTemplate({ title, sections }: Page) {
   return (
     <>
+      <SiteHeader />
       <header>
         <h1>{title}</h1>
       </header>
