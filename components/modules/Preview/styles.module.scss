@@ -11,7 +11,7 @@
 }
 
 .caption {
-  @include text-large;
+  @include text-medium;
   display: grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: 1fr auto;

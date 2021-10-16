@@ -10,6 +10,7 @@ import PaintingPreview from '../../../containers/PaintingPreview'
 import styles from './styles.module.scss'
 
 export default function Gallery({
+  title,
   showCards,
   showPaintings,
 }: GalleryInterface) {
@@ -30,7 +31,7 @@ export default function Gallery({
 
   return (
     <div className={styles['gallery-container']}>
-      <h1>Gallery</h1>
+      <h1>{title}</h1>
       <ol className={styles['gallery']} aria-label="Kaarten">
         {ids.map(({ id, type }) => {
           return (

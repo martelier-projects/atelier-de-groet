@@ -1,16 +1,41 @@
+import flexibles from '../flexibles'
+
 export default {
-  name: 'pages',
   label: 'Pages',
-  files: [
+  name: 'pages',
+  create: true,
+  folder: 'content/pages',
+  editor: {
+    preview: false,
+  },
+  summary: '{{fields.title}}',
+  fields: [
     {
-      label: 'Home',
-      name: 'home',
-      file: 'content/home.md',
-      fields: [
-        { label: 'Title', name: 'title', widget: 'string' },
-        { label: 'Publish Date', name: 'date', widget: 'datetime' },
-        { label: 'Body', name: 'body', widget: 'markdown' },
-      ],
+      label: 'Title',
+      name: 'title',
+      widget: 'string',
+      required: true,
+    },
+    {
+      label: 'URL',
+      name: 'url',
+      widget: 'string',
+      required: true,
+      default: '/',
+      hint: 'Begin met een /',
+    },
+    {
+      label: 'Template',
+      name: 'template',
+      widget: 'select',
+      options: ['default'],
+      default: 'default',
+    },
+    {
+      label: 'Section',
+      name: 'sections',
+      widget: 'list',
+      types: flexibles,
     },
   ],
 }

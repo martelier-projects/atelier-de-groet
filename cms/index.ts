@@ -1,6 +1,7 @@
 import pages from './collections/pages'
 import paintings from './collections/paintings'
 import cards from './collections/cards'
+import globals from './globals'
 
 export default {
   backend: {
@@ -10,7 +11,7 @@ export default {
   local_backend: true,
   load_config_file: false,
   media_folder: 'public/images',
-  public_folder: 'images',
+  public_folder: '/images',
 
-  collections: [pages, paintings, cards],
+  collections: [pages, paintings, cards, globals],
 }

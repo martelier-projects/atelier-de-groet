@@ -187,41 +187,41 @@
 * Fancy underline
 */
 
-/**
-* Fancy underline
-*/
-@mixin fancy-underline($mode: default) {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
+// /**
+// * Fancy underline
+// */
+// @mixin fancy-underline($mode: default) {
+//   position: relative;
+//   display: inline-block;
+//   text-decoration: none;
 
-  @if ($mode == 'reversed') {
-    &::before {
-      transform: scaleX(1);
-      transform-origin: right center;
-    }
-    &:hover::before {
-      transform: scaleX(0);
-    }
-  } @else {
-    &::before {
-      transform: scaleX(0);
-      transform-origin: left center;
-    }
-    &:hover::before {
-      transform: scaleX(1);
-    }
-  }
+//   @if ($mode == 'reversed') {
+//     &::before {
+//       transform: scaleX(1);
+//       transform-origin: right center;
+//     }
+//     &:hover::before {
+//       transform: scaleX(0);
+//     }
+//   } @else {
+//     &::before {
+//       transform: scaleX(0);
+//       transform-origin: left center;
+//     }
+//     &:hover::before {
+//       transform: scaleX(1);
+//     }
+//   }
 
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: $line-width-regular;
-    background: $red;
-    transition: transform $pace-normal $ease-in-out;
-  }
-}
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     display: block;
+//     width: 100%;
+//     height: $line-width-regular;
+//     background: $red;
+//     transition: transform $pace-normal $ease-in-out;
+//   }
+// }

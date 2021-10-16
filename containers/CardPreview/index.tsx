@@ -8,6 +8,7 @@ import Preview from '../../components/modules/Preview'
 
 export default function CardPreview({ id }: CardPreviewInterface) {
   const cardStore = useContext(CardContext)
+  console.log('cardStore: ', cardStore)
 
   const card = cardStore.byId[id]
 

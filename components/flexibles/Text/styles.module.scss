@@ -1,0 +1,18 @@
+@import '../../../styles/base.scss';
+
+.text {
+  @include block(small-medium);
+  @include row-bottom(medium);
+}
+
+.title {
+  margin: 0;
+}
+
+.content {
+  margin-top: gap(large);
+}
+
+.title + .content {
+  margin-top: gap(large);
+}
