@@ -46,7 +46,7 @@
 .site-navigation__link {
   display: inline-block;
   margin: 0 1.5rem;
-  padding: gap(small) 0;
+  padding: gap(3) 0;
 
   color: $black;
   text-decoration: none;
@@ -60,13 +60,9 @@
   }
 }
 
-[data-is-hovering='true'] .site-navigation__link {
-  color: $gray;
-}
-
-[data-is-hovering='true'] .site-navigation__link:hover,
-[data-is-hovering='true'] .site-navigation__link:focus {
-  color: $black;
+.site-navigation__link:hover,
+.site-navigation__link:focus {
+  color: $primary-color-darker;
 }
 .site-navigation__link[data-active='true'] {
   color: $primary-color;

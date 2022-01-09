@@ -15,7 +15,7 @@ export default {
         {
           label: 'Label',
           name: 'label',
-          widget: 'text',
+          widget: 'string',
         },
         {
           label: 'Page link',

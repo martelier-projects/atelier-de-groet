@@ -1,10 +1,18 @@
 import type FlexibleContentInterface from './interface'
 
 import Text from '../../flexibles/Text'
+import DualText from '../../flexibles/DualText'
 import Gallery from '../../flexibles/Gallery'
-import RichText from '../../flexibles/RichText'
+import Image from '../../flexibles/Image'
 
 import styles from './styles.module.scss'
+
+const flexibleMap = {
+  'dual-text': DualText,
+  text: Text,
+  gallery: Gallery,
+  image: Image,
+}
 
 export default function FlexibleContent({
   sections,
@@ -12,14 +20,11 @@ export default function FlexibleContent({
   return (
     <div className={styles['container']}>
       {sections.map((section, index) => {
-        if (section.component === 'text') {
-          return <Text key={`flexible-content-${index}`} {...section} />
-        }
-        if (section.component === 'gallery') {
-          return <Gallery key={`flexible-content-${index}`} {...section} />
-        }
-        if (section.component === 'rich-text') {
-          return <RichText key={`flexible-content-${index}`} {...section} />
+        // @ts-ignore
+        const Component = flexibleMap[section.component]
+
+        if (Component) {
+          return <Component key={`flexible-content-${index}`} {...section} />
         }
         return null
       })}

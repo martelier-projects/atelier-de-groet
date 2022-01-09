@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
+import { useRouter } from 'next/dist/client/router'
 import type SiteNavigationInterface from './interface'
 import type Navigation from '../../../interfaces/Navigation'
 
@@ -17,9 +18,16 @@ export default function SiteNavigation({
   const { items }: Navigation = attributes
   const [isHovering, setIsHovering] = useState(false)
   const [pathName, setPathName] = useState('')
+  const router = useRouter()
 
   useEffect(() => {
-    setPathName(window.location.pathname)
+    const handleRouteChange = (url: string) => setPathName(url)
+
+    handleRouteChange(window.location.pathname)
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
   }, [])
 
   return (
@@ -39,7 +47,7 @@ export default function SiteNavigation({
               <a
                 tabIndex={mobileMenuIsOpen ? 0 : -1}
                 className={styles['site-navigation__link']}
-                data-active={pathName.includes(pageLink)}
+                data-active={pathName === pageLink}
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
               >

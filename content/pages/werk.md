@@ -5,11 +5,11 @@ template: default
 sections:
   - type: text
     component: text
-    title: Hkjsdfsk fsdfjsdf jsdf s
-    text: sdfsdf fsd sf sf sf
+    title: Werk
+    text: Hier mijn werk
   - type: gallery
     showCards: true
     showPaintings: true
     component: gallery
-    title: Galleryyyyyy
+    title: Gallery
 ---

@@ -6,10 +6,9 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: gap(medium);
-  padding-bottom: gap(medium);
+  padding-top: gap(4);
+  padding-bottom: gap(4);
   background-color: $white;
-  border-bottom: 1px solid $gray;
 
   @include bp-min(medium) {
     border-bottom: none;
@@ -40,6 +39,7 @@
   z-index: 1;
   display: flex;
   margin-right: auto;
+  max-width: 4rem;
 }
 
 /**
@@ -48,17 +48,17 @@
 .site-header__nav-toggle,
 .site-header__search-toggle {
   // Reduce the added padding to prevent a bloated top menu height;
-  margin-top: -#{gap(small)};
-  margin-bottom: -#{gap(small)};
+  margin-top: -#{gap(3)};
+  margin-bottom: -#{gap(3)};
   // Create a minimum size of 44px;
-  padding: gap(small);
+  padding: gap(3);
 }
 
 .site-header__nav-toggle {
   @include bare-button;
   z-index: 1;
   // Reset the added padding to prevent misalignment.
-  margin-right: -#{gap(small)};
+  margin-right: -#{gap(3)};
 
   @include bp-min(medium) {
     display: none;
@@ -94,7 +94,6 @@
   width: 100%;
   background-color: $white;
   color: $black;
-  border-bottom: 1px solid $gray;
   transform: translateY(-100%);
   transition: $pace-normal $ease-in-out-smooth transform;
 }

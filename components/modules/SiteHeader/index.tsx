@@ -55,7 +55,12 @@ export default function SiteHeader() {
       >
         <header ref={headerRef} className={styles['site-header']}>
           <Link href="/">
-            <a className={styles['site-header__logo']}>Logo</a>
+            <a className={styles['site-header__logo']}>
+              <img
+                src="/images/logo.jpg"
+                alt="Logo van Atelier de groet: een geschilderde hand"
+              />
+            </a>
           </Link>
 
           <button

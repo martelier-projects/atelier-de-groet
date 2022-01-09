@@ -10,7 +10,7 @@
 .rich-content h2,
 .rich-content h3 {
   margin-top: 0;
-  margin-bottom: gap(medium);
+  margin-bottom: gap(4);
 }
 .rich-content h2 {
   @include heading-medium;
@@ -23,7 +23,7 @@
 .rich-content h6 {
   @include heading-tiny;
   margin-top: 0;
-  margin-bottom: gap(small);
+  margin-bottom: gap(3);
 }
 .rich-content a {
   color: $primary-color;
@@ -40,8 +40,8 @@
 .rich-content ul li,
 .rich-content ol li {
   position: relative;
-  margin-bottom: gap(medium);
-  padding-left: gap(medium-large);
+  margin-bottom: gap(4);
+  padding-left: gap(7);
 }
 
 // <ul>
@@ -50,8 +50,8 @@
   position: absolute;
   top: 0.5em;
   left: 0;
-  width: gap(tiny-small);
-  height: gap(tiny-small);
+  width: gap(2);
+  height: gap(2);
   background-color: $primary-color;
 }
 
@@ -73,10 +73,10 @@
 .rich-content p,
 .rich-content ul,
 .rich-content ol {
-  margin-bottom: gap(large);
+  margin-bottom: gap(9);
 }
 .rich-content p + p {
-  margin-top: -(gap(medium));
+  margin-top: -(gap(4));
 }
 .rich-content p:last-child,
 .rich-content ul:last-child,

@@ -1,0 +1,16 @@
+@import '../../../styles/base.scss';
+
+.dual-text {
+  @include block(large);
+  @include row(medium);
+
+  @include bp-min(large) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: gap(9);
+  }
+}
+
+.dual-text em {
+  font-size: 80%;
+}

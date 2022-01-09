@@ -2,17 +2,18 @@
 
 .text {
   @include block(small-medium);
-  @include row-bottom(medium);
+  @include row(medium);
 }
 
 .title {
+  @include heading-large;
   margin: 0;
 }
 
 .content {
-  margin-top: gap(large);
+  margin-top: gap(9);
 }
 
 .title + .content {
-  margin-top: gap(large);
+  margin-top: gap(9);
 }

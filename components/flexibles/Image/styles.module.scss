@@ -1,0 +1,10 @@
+@import '../../../styles/base.scss';
+
+.image {
+  @include block(huge);
+  @include row(small);
+}
+
+.image__image {
+  width: 100%;
+}
