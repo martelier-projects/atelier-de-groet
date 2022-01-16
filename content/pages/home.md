@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Het atelier
 url: /
 template: default
 sections:

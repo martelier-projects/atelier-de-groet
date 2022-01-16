@@ -1,6 +1,6 @@
 ---
 items:
-  - label: Home
+  - label: Het atelier
     pageLink: /
   - label: Cursus oliverf
     pageLink: /cursus-olieverf/
