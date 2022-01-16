@@ -5,4 +5,5 @@ export default interface Preview {
   title: string
   width: string
   height: string
+  url: string
 }

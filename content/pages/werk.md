@@ -6,7 +6,7 @@ sections:
   - type: text
     component: text
     title: Werk
-    text: Hier mijn werk
+    text: Hier meer tekst over "mijn werk" ...
   - type: gallery
     showCards: true
     showPaintings: true

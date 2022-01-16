@@ -1,8 +1,8 @@
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import type Page from '../interfaces/Page'
 
-import getSlugFromContext from '../utils/get-slug-from-context/index'
 import { getAllDynamicPages, getPageContentBySlug } from '../utils/markdown'
+import getSlugFromContext from '../utils/get-slug-from-context/index'
 
 import DefaultTemplate from '../templates/Default'
 

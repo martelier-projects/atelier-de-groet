@@ -1,3 +1,4 @@
+import slugify from 'slugify'
 import { useContext } from 'react'
 
 import type CardPreviewInterface from './interface'
@@ -8,7 +9,6 @@ import Preview from '../../components/modules/Preview'
 
 export default function CardPreview({ id }: CardPreviewInterface) {
   const cardStore = useContext(CardContext)
-  console.log('cardStore: ', cardStore)
 
   const card = cardStore.byId[id]
 
@@ -21,6 +21,7 @@ export default function CardPreview({ id }: CardPreviewInterface) {
       sold={card.sold || false}
       width="13"
       height="18"
+      url={`/kaarten/${slugify(card.title)}`}
     />
   )
 }

@@ -17,6 +17,11 @@
   grid-template-columns: 1fr auto;
   align-items: flex-end;
   margin-top: gap(1);
+  padding: 0 gap(3);
+
+  @include bp-min(tiny) {
+    padding: 0;
+  }
 }
 .caption-title {
   grid-column: span 2;
@@ -24,4 +29,17 @@
 
 .sold {
   @include text-small;
+}
+
+.buy-button {
+  @include bare-button;
+  padding: gap(2) gap(4);
+  line-height: 1;
+  border: 1px solid $black;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.buy-button:hover,
+.buy-button:focus {
+  background-color: $black;
+  color: $white;
 }

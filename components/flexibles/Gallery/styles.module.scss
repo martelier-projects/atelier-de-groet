@@ -1,20 +1,24 @@
 @import '../../../styles/base.scss';
 
 // .gallery-container {
-//   background-color: #c9cbc8;
+// background-color: #c9cbc8;
 // }
 
-.gallery {
+.gallery__title {
+  margin: 0;
+  padding: 4rem;
+}
+.gallery__list {
   @include bare-list;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 6rem;
   max-width: 40rem;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 gap(8);
 
   @include bp-min(tiny) {
-    padding: 4rem;
+    padding: 0 4rem 30rem;
   }
 
   @include bp-min(medium) {
@@ -30,11 +34,11 @@
   }
 }
 
-.gallery-item {
+.gallery__item {
   margin: 0;
 }
 
-.gallery-item:nth-of-type(2n + 1) {
+.gallery__item:nth-of-type(2n + 1) {
   @include bp-min(medium) {
     transform: translateY(calc(50% + 5rem));
   }
@@ -44,13 +48,13 @@
   }
 }
 
-.gallery-item:nth-of-type(3n + 2) {
+.gallery__item:nth-of-type(3n + 2) {
   @include bp-min(large) {
     transform: translateY(50%);
     // transform: translateY(calc(50% + 15rem));
   }
 }
-.gallery-item:nth-of-type(3n + 3) {
+.gallery__item:nth-of-type(3n + 3) {
   @include bp-min(large) {
     transform: translateY(20%);
     // transform: translateY(calc(50% + 15rem));

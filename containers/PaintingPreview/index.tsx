@@ -1,3 +1,4 @@
+import slugify from 'slugify'
 import { useContext } from 'react'
 
 import type PaintingPreviewInterface from './interface'
@@ -20,6 +21,7 @@ export default function PaintingPreview({ id }: PaintingPreviewInterface) {
       sold={painting.sold || false}
       width={painting.width}
       height={painting.height}
+      url={`/schilderijen/${slugify(painting.title)}`}
     />
   )
 }

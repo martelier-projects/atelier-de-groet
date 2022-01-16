@@ -13,31 +13,32 @@ sections:
   - type: image
     component: image
     image: /images/terras.jpg
-  - type: dual-text
-    component: dual-text
-    leftText:
-      title: Kosten
-      text: >-
-        * € 30,- per persoon per les.
+  - type: text
+    component: text
+    title: Kosten
+    text: >-
+      * € 30,- per persoon per les.
 
-        * Inclusief basis materiaal verf, medium, penselen, koffie en thee.
+      * Inclusief basis materiaal verf, medium, penselen, koffie en thee.
 
-        * Exclusief schildersdoek, verkrijgbaar in het atelier.
+      * Exclusief schildersdoek, verkrijgbaar in het atelier.
 
-        * Schildersezels en schorten zijn aanwezig.
+      * Schildersezels en schorten zijn aanwezig.
 
-        * Betaling per faktuur in lesblokken van schoolvakantie tot schoolvakantie a € 30,- per les
+      * Betaling per faktuur in lesblokken van schoolvakantie tot schoolvakantie a € 30,- per les
 
-        * Als men iets meer vrijheid wil in aanwezigheid kan er een 8-rittenkaart gekocht worden voor € 225,-\
-          Deze kaart blijft langdurig geldig.
-    rightText:
-      title: Tijden
-      text: |-
-        * Maandagavond: 19.30 - 22.00 uur *(Alleen op EVEN weken)*
-        * Dinsdagochtend: 09.00 - 11.30 uur
-        * Dinsdagmiddag: 14.00 -16.30 uur
-        * Donderdagochtend: 09.00 - 11.30 uur
-        * Donderdagmiddag: 14.00- 16.30 uur *(Aleen op ONEVEN weken)*
-        * Zaterdagmiddag: 14.00 - 16.30 uur
-        * Open Atelier: Zaterdag elke ONEVEN week
+      * Als men iets meer vrijheid wil in aanwezigheid kan er een 8-rittenkaart gekocht worden voor € 225,- Deze kaart blijft langdurig geldig.
+  - type: text
+    component: text
+    title: Tijden
+    text: |-
+      
+
+      * Maandagavond: 19.30 - 22.00 uur *(Alleen op EVEN weken)*
+      * Dinsdagochtend: 09.00 - 11.30 uur
+      * Dinsdagmiddag: 14.00 -16.30 uur
+      * Donderdagochtend: 09.00 - 11.30 uur
+      * Donderdagmiddag: 14.00- 16.30 uur *(Aleen op ONEVEN weken)*
+      * Zaterdagmiddag: 14.00 - 16.30 uur
+      * Open Atelier: Zaterdag elke ONEVEN week
 ---

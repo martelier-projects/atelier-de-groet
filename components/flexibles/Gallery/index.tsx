@@ -30,12 +30,13 @@ export default function Gallery({
   ]
 
   return (
-    <div className={styles['gallery-container']}>
-      <h1>{title}</h1>
-      <ol className={styles['gallery']} aria-label="Kaarten">
+    <div className={styles['gallery']}>
+      <h1 className={styles['gallery__title']}>{title}</h1>
+
+      <ol className={styles['gallery__list']} aria-label="Kaarten">
         {ids.map(({ id, type }) => {
           return (
-            <li key={id} className={styles['gallery-item']}>
+            <li key={id} className={styles['gallery__item']}>
               {type === 'card' && <CardPreview id={id} />}
               {type === 'painting' && <PaintingPreview id={id} />}
             </li>

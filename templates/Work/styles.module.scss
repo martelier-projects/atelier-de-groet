@@ -1,0 +1,27 @@
+@import '../../styles/base.scss';
+
+.work {
+  @include block(large);
+  @include row(medium);
+
+  @include bp-min(medium) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: gap(12);
+  }
+}
+
+.work__content {
+  @include constrain(small);
+}
+
+.work__figure {
+  @include constrain(tiny);
+
+  @include bp-min(medium) {
+    max-width: 100%;
+  }
+}
+.work__image {
+  width: 100%;
+}

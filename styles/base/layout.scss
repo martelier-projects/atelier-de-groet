@@ -2,17 +2,6 @@
  * Gaps.
  * The space between elements.
  */
-// $gaps: (
-//   tiny: rem(5),
-//   tiny-small: rem(8),
-//   small: rem(10),
-//   small-medium: rem(12),
-//   medium: rem(17),
-//   medium-large: rem(27),
-//   large: rem(38),
-//   huge: rem(70),
-// );
-
 $gaps: (
   1: rem(4),
   2: rem(8),
@@ -70,8 +59,8 @@ $constrains: (
     }
   }
   @include bp-min(medium) {
-    padding-right: rem(150);
-    padding-left: rem(150);
+    padding-right: gap(11);
+    padding-left: gap(11);
   }
 
   .no-csscalc &,
