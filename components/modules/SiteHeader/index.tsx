@@ -1,93 +1,105 @@
-import Link from 'next/link'
-import HeadRoom from 'react-headroom'
-import { useState, useRef, useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
+import FocusTrap from 'focus-trap-react'
 
-import SiteNavigation from '../SiteNavigation'
+import Link from 'next/link'
+
+import { breakpointMedium } from '../../../utils/breakpoints'
+import classes from '../../../utils/classes'
+
 import SkipLink from '../../partials/SkipLink'
+import SiteNav from '../SiteNav'
 import Hamburger from '../../partials/Hamburger'
 
 import styles from './styles.module.scss'
 
 export default function SiteHeader() {
-  const headerRef = useRef<HTMLHeadElement>(null)
+  const router = useRouter()
+  const [mobileNavIsOpen, setMobileNavIsOpen] = useState(false)
 
-  const [headerHeight, setHeaderHeight] = useState(0)
-  const [mobileNavIsOpen, setMobileNavIsOpen] = useState(true)
+  const isClosedLabel = 'Open menu'
+  const isOpenLabel = 'Sluit menu'
+
+  const headerClasses = classes({
+    [styles['site-header']]: true,
+    [styles['site-header--is-expanded']]: mobileNavIsOpen,
+  })
 
   useEffect(() => {
     setMobileNavIsOpen(false)
 
+    // Hide menu overlay when screen is big enough
     const onResize = () => {
-      // // Always open nav on larger screens. This also impacts aria-hidden statements.
-      // setMobileNavIsOpen(window.innerWidth > breakpointMedium);
-
-      // Set the top of the nav wrapper to the height of the header.
-      if (headerRef.current) {
-        const { height } = headerRef.current.getBoundingClientRect()
-        setHeaderHeight(Math.round(height - 1))
+      if (window.innerWidth > breakpointMedium) {
+        setMobileNavIsOpen(false)
       }
     }
-
-    onResize()
     window.addEventListener('resize', onResize)
+    onResize()
 
-    return () => window.removeEventListener('resize', onResize)
+    // Hide menu overlay after navigating to a different page
+    const handleRouteChangeComplete = () => setMobileNavIsOpen(false)
+    router.events.on('routeChangeComplete', handleRouteChangeComplete)
+    return () => {
+      window.removeEventListener('resize', onResize)
+      router.events.off('routeChangeComplete', handleRouteChangeComplete)
+    }
   }, [])
 
-  /**
-   * Close pop-outs when the nav unpins
-   */
-  // const handleUnpin = () => {
-  //   // Only close the mobile nav when the mobile nav is visible.
-  //   if (window.innerWidth < 960) {
-  //     setMobileNavIsOpen(false)
-  //   }
-  //   setSearchIsOpen(false)
-  // }
+  const toggleMenuVisibility = () => {
+    setMobileNavIsOpen(!mobileNavIsOpen)
+
+    // Add class to document for additional styling
+    // Todo: move this to a global UI Context
+    document.documentElement.classList.toggle(
+      'has-active-site-nav',
+      !mobileNavIsOpen
+    )
+  }
 
   return (
     <>
-      <SkipLink />
+      <SkipLink id="content" label="Ga naar de content" />
 
-      <HeadRoom
-        style={{ zIndex: 999 }}
-        // onUnpin={handleUnpin}
-      >
-        <header ref={headerRef} className={styles['site-header']}>
-          <Link href="/">
-            <a className={styles['site-header__logo']}>
-              <img
-                src="/images/logo.jpg"
-                alt="Logo van Atelier de groet: een geschilderde hand"
-              />
-            </a>
-          </Link>
+      <div className={styles['site-header__spacer']} />
 
-          <button
-            type="button"
-            className={styles['site-header__nav-toggle']}
-            onClick={() => setMobileNavIsOpen(!mobileNavIsOpen)}
-            aria-haspopup="true"
-            aria-expanded={mobileNavIsOpen}
-            aria-controls="navigation-container"
-          >
-            <span className="sr-only">
-              {mobileNavIsOpen ? 'Sluit navigatie' : 'Open navigatie'}
-            </span>
-            <Hamburger isCross={mobileNavIsOpen} />
-          </button>
+      <header className={headerClasses}>
+        <FocusTrap active={mobileNavIsOpen}>
+          <div className={styles['site-header__inner']}>
+            <Link href="/">
+              <a className={styles['site-header__logo']}>
+                <img
+                  src="/images/logo.jpg"
+                  alt="Logo van Atelier de groet: een geschilderde hand"
+                />
+                <span className="sr-only">Home</span>
+              </a>
+            </Link>
 
-          <div
-            id="navigation-container"
-            className={`${styles['site-header__pop-out']} ${styles['site-header__pop-out--reset-on-large-screens']}`}
-            aria-hidden={!mobileNavIsOpen}
-            data-is-open={mobileNavIsOpen}
-            style={{ top: `${headerHeight}px` }}
-          >
-            <SiteNavigation mobileMenuIsOpen={mobileNavIsOpen} />
+            <button
+              className={styles['site-header__nav-toggle']}
+              type="button"
+              onClick={toggleMenuVisibility}
+              aria-haspopup="true"
+              aria-expanded={mobileNavIsOpen}
+              aria-controls="site-navigation"
+            >
+              <Hamburger isCross={mobileNavIsOpen} />
+              <span className="sr-only">
+                {mobileNavIsOpen ? isOpenLabel : isClosedLabel}
+              </span>
+            </button>
+
+            <div
+              id="site-navigation"
+              className={styles['site-header__nav-container']}
+              data-is-open={mobileNavIsOpen}
+            >
+              <SiteNav />
+            </div>
           </div>
-        </header>
-      </HeadRoom>
+        </FocusTrap>
+      </header>
     </>
   )
 }

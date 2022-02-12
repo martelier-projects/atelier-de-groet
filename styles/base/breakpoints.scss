@@ -9,6 +9,9 @@ $breakpoints: (
   huge: 1680,
 );
 
+// Custom breakpoints
+$nav-switch: map-get($breakpoints, medium);
+
 /**
 * Media query breakpoints mixins.
 *

@@ -1,0 +1,50 @@
+@import '../../../styles/base.scss';
+
+.site-nav {
+  display: block;
+  width: 100%;
+  font-size: rem(24);
+  @include bp-min($nav-switch) {
+    @include text-small;
+    width: auto;
+    margin-left: auto;
+  }
+}
+.site-nav__list {
+  @include bare-list;
+  @include bp-min($nav-switch) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+.site-nav__item {
+  @include bp-max($nav-switch) {
+    border-bottom: 1px solid rgba($white, 0.3);
+  }
+}
+.site-nav:last-of-type .site-nav__item:last-child {
+  border: none;
+}
+.site-nav__link {
+  display: block;
+  margin-right: gap(3);
+  margin-left: gap(3);
+  padding: gap(5);
+  color: $white;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  @include bp-min($nav-switch) {
+    margin-right: gap(5);
+    margin-left: gap(5);
+    padding: 0;
+    color: currentColor;
+    text-align: initial;
+  }
+}
+.site-nav__link:hover,
+.site-nav__link:focus {
+  text-decoration: underline;
+  text-underline-position: under;
+}

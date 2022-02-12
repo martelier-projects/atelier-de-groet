@@ -88,3 +88,18 @@ $row-margins: (
   @include row-top($size);
   @include row-bottom($size);
 }
+
+/*
+ * Z-index
+ * Usage: z-index: z(skiplink);
+ */
+$z-index: (
+  skiplink: 10000,
+  cookie-dialog: 999,
+  project-header-content: 10,
+  pull-back: -1,
+  site-nav: 30,
+  site-nav-overlay: 0,
+  overlay: 1,
+  video-play-button: 2,
+);
