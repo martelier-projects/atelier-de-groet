@@ -21,7 +21,7 @@
 .rich-content h4,
 .rich-content h5,
 .rich-content h6 {
-  @include heading-tiny;
+  @include heading-small;
   margin-top: 0;
   margin-bottom: gap(3);
 }

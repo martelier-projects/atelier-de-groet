@@ -30,7 +30,7 @@ $gaps: (
 $constrains: (
   tiny: rem(450),
   small: rem(660),
-  small-medium: rem(880),
+  small-medium: rem(750),
   medium: rem(940),
   medium-large: rem(1035),
   large: rem(1275),
@@ -51,8 +51,8 @@ $constrains: (
   padding-right: gap(4);
   padding-left: gap(4);
   @include bp-min(small) {
-    padding-right: calc(6vw + 2rem);
-    padding-left: calc(6vw + 2rem);
+    padding-right: cap(6);
+    padding-left: cap(6);
 
     @if ($size != full) {
       max-width: calc(#{constrain($size)} + 6vw + 4rem);

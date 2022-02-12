@@ -1,5 +1,5 @@
 export default {
-  label: 'Navigation',
+  label: 'Navigatie | Menu',
   name: 'navigation',
   file: 'content/globals/navigation.md',
   editor: {

@@ -1,0 +1,90 @@
+@import '../../../styles/base.scss';
+
+.text-media--media-left {
+  @include bp-min(small-medium) {
+    padding-right: 0;
+  }
+}
+.text-media--media-right {
+  @include bp-min(small-medium) {
+    padding-left: 0;
+  }
+}
+.text-media__inner {
+  @include block;
+  @include row(large);
+  @include bp-min(small-medium) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.text-media__content {
+  margin-top: gap(6);
+  @include bp-min(small-medium) {
+    margin-top: 0;
+  }
+}
+
+.text-media__media,
+.text-media__content {
+  order: 1;
+  width: 100%;
+  @include bp-min(small-medium) {
+    width: 50%;
+  }
+}
+.text-media--media-right .text-media__media {
+  order: 2;
+}
+
+/**
+ * Text
+ */
+.text-media--media-right .text-media__content {
+  @include bp-min(small-medium) {
+    padding-right: gap(6);
+    padding-left: 0;
+  }
+  @include bp-min(medium) {
+    padding-right: gap(large);
+    padding-left: calc(#{gap(large)} - #{gap(8)});
+  }
+  @include bp-min(large) {
+    padding-right: gap(10);
+    padding-left: calc(#{gap(10)} - #{gap(8)});
+  }
+}
+
+.text-media--media-left .text-media__content {
+  @include bp-min(small-medium) {
+    padding-right: 0;
+    padding-left: gap(6);
+  }
+  @include bp-min(medium) {
+    padding-right: calc(#{gap(large)} - #{gap(8)});
+    padding-left: gap(large);
+  }
+  @include bp-min(large) {
+    padding-right: calc(#{gap(10)} - #{gap(8)});
+    padding-left: gap(10);
+  }
+}
+.text-media__title {
+  @include heading-small;
+  margin-bottom: gap(small);
+  @include bp-min(small-medium) {
+    margin-bottom: gap(6);
+  }
+}
+.text-media__inner-content :last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * Media
+ */
+.text-media__image {
+  width: 100%;
+  height: auto;
+}

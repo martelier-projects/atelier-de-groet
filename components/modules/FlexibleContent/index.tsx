@@ -4,6 +4,7 @@ import Text from '../../flexibles/Text'
 import DualText from '../../flexibles/DualText'
 import Gallery from '../../flexibles/Gallery'
 import Image from '../../flexibles/Image'
+import TextMedia from '../../flexibles/TextMedia'
 
 import styles from './styles.module.scss'
 
@@ -12,6 +13,7 @@ const flexibleMap = {
   text: Text,
   gallery: Gallery,
   image: Image,
+  'text-media': TextMedia,
 }
 
 export default function FlexibleContent({

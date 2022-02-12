@@ -1,7 +1,7 @@
 import flexibles from '../flexibles'
 
 export default {
-  label: 'Pages',
+  label: "Pagina's",
   name: 'pages',
   create: true,
   folder: 'content/pages',

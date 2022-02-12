@@ -5,7 +5,8 @@
   @include row(medium);
 }
 .text__inner {
-  @include constrain(small);
+  @include constrain(small-medium);
+  margin-left: auto;
 }
 
 .title {

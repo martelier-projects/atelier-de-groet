@@ -25,9 +25,9 @@ sections:
 
       * Schildersezels en schorten zijn aanwezig.
 
-      * Betaling per faktuur in lesblokken van schoolvakantie tot schoolvakantie a € 30,- per les
+      * Betaling per faktuur in lesblokken van schoolvakantie tot schoolvakantie a €30,- per les
 
-      * Als men iets meer vrijheid wil in aanwezigheid kan er een 8-rittenkaart gekocht worden voor € 225,- Deze kaart blijft langdurig geldig.
+      * Als men iets meer vrijheid wil in aanwezigheid kan er een 8-rittenkaart gekocht worden voor €225,- Deze kaart blijft langdurig geldig.
   - type: text
     component: text
     title: Tijden

@@ -2,6 +2,6 @@ import navigation from './navigation'
 
 export default {
   name: 'Globals',
-  label: 'globals',
+  label: 'Settings',
   files: [navigation],
 }
