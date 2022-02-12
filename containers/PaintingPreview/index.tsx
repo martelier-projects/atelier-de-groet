@@ -22,6 +22,7 @@ export default function PaintingPreview({ id }: PaintingPreviewInterface) {
       width={painting.width}
       height={painting.height}
       url={`/schilderijen/${slugify(painting.title)}`}
+      type={painting.type}
     />
   )
 }

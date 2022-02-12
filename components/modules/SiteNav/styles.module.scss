@@ -43,8 +43,26 @@
     text-align: initial;
   }
 }
+
+.site-nav__link[data-active='true'] {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
+
+  @include bp-min($nav-switch) {
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
 .site-nav__link:hover,
 .site-nav__link:focus {
   text-decoration: underline;
   text-underline-position: under;
+  text-decoration-thickness: 2px;
+
+  @include bp-min($nav-switch) {
+    color: $primary-color-darker;
+    text-decoration: none;
+  }
 }

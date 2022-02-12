@@ -6,4 +6,5 @@ export default interface Painting {
   height: string
 
   sold?: boolean
+  type?: string
 }

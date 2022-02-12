@@ -17,6 +17,13 @@ export default {
     { label: 'Afbeelding', name: 'image', widget: 'image' },
     { label: 'Beschrijving', name: 'title', widget: 'string' },
     {
+      label: 'Type',
+      name: 'type',
+      widget: 'select',
+      options: ['Olieverf', 'Pastel'],
+      default: 'Olieverf',
+    },
+    {
       label: 'Publish Date',
       name: 'date',
       widget: 'datetime',

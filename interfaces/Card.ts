@@ -4,4 +4,5 @@ export default interface Card {
   date: string
 
   sold?: boolean
+  type?: string
 }

@@ -29,6 +29,13 @@ export default {
       hint: 'Hoogte in CM',
     },
     {
+      label: 'Type',
+      name: 'type',
+      widget: 'select',
+      options: ['Olieverf', 'Pastel'],
+      default: 'Olieverf',
+    },
+    {
       label: 'Publish Date',
       name: 'date',
       widget: 'datetime',

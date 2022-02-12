@@ -1,5 +1,9 @@
 @import '../../../styles/base.scss';
 
+.wrapping-link {
+  text-decoration: none;
+}
+
 .preview {
   margin: 0;
   padding: 0;
@@ -11,11 +15,11 @@
 }
 
 .caption {
-  @include text-medium;
+  @include text-small;
   display: grid;
   grid-template-rows: repeat(2, auto);
-  grid-template-columns: 1fr auto;
-  align-items: flex-end;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
   margin-top: gap(1);
   padding: 0 gap(3);
 
@@ -24,7 +28,12 @@
   }
 }
 .caption-title {
-  grid-column: span 2;
+  grid-column: 1 / -1;
+}
+
+.type {
+  @include text-small;
+  padding-left: gap(2);
 }
 
 .sold {
@@ -33,13 +42,14 @@
 
 .buy-button {
   @include bare-button;
+  @include text-small;
   padding: gap(2) gap(4);
   line-height: 1;
   border: 1px solid $black;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
-.buy-button:hover,
-.buy-button:focus {
+.wrapping-link:hover .buy-button,
+.wrapping-link:focus .buy-button {
   background-color: $black;
   color: $white;
 }

@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
 
 import type Navigation from '../../../interfaces/Navigation'
 
@@ -9,6 +11,19 @@ import styles from './styles.module.scss'
 export default function Nav() {
   const { items }: Navigation = attributes
 
+  const [pathName, setPathName] = useState('')
+  const router = useRouter()
+
+  useEffect(() => {
+    const handleRouteChange = (url: string) => setPathName(url)
+
+    handleRouteChange(window.location.pathname)
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [])
+
   return (
     <nav className={styles['site-nav']} role="navigation">
       <ul className={styles['site-nav__list']}>
@@ -18,7 +33,10 @@ export default function Nav() {
             className={styles['site-nav__item']}
           >
             <Link href={pageLink}>
-              <a className={styles['site-nav__link']}>
+              <a
+                className={styles['site-nav__link']}
+                data-active={pathName === pageLink}
+              >
                 <span className={styles['site-nav__link-label']}>{label}</span>
               </a>
             </Link>

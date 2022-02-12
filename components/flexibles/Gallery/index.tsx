@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+
 import type GalleryInterface from './interface'
 
 import { CardContext } from '../../../stores/card/store'
