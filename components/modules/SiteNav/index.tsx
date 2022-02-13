@@ -8,6 +8,9 @@ import { attributes } from '../../../content/globals/navigation.md'
 
 import styles from './styles.module.scss'
 
+const removeTrailingSlash = (path: string) =>
+  path.endsWith('/') ? path.slice(0, -1) : path
+
 export default function Nav() {
   const { items }: Navigation = attributes
 
@@ -35,7 +38,10 @@ export default function Nav() {
             <Link href={pageLink}>
               <a
                 className={styles['site-nav__link']}
-                data-active={pathName === pageLink}
+                data-active={
+                  removeTrailingSlash(pathName) ===
+                  removeTrailingSlash(pageLink)
+                }
               >
                 <span className={styles['site-nav__link-label']}>{label}</span>
               </a>
