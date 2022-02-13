@@ -13,15 +13,15 @@
   margin-bottom: gap(4);
 }
 .rich-content h2 {
-  @include heading-medium;
+  @include heading-large;
 }
 .rich-content h3 {
-  @include heading-small;
+  @include heading-large;
 }
 .rich-content h4,
 .rich-content h5,
 .rich-content h6 {
-  @include heading-small;
+  @include heading-medium;
   margin-top: 0;
   margin-bottom: gap(3);
 }

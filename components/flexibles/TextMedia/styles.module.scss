@@ -71,7 +71,7 @@
   }
 }
 .text-media__title {
-  @include heading-small;
+  @include heading-medium;
   margin-bottom: gap(small);
   @include bp-min(small-medium) {
     margin-bottom: gap(6);
