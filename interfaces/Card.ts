@@ -5,4 +5,6 @@ export default interface Card {
 
   sold?: boolean
   type?: string
+  width?: string
+  height?: string
 }
