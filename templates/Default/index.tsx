@@ -12,7 +12,9 @@ export default function DefaultTemplate({ title, sections }: Page) {
       <SiteHeader />
       <main className={styles['container']}>
         <FlexibleContent sections={sections} />
-        <Contact />
+        <footer id="contact">
+          <Contact />
+        </footer>
       </main>
     </>
   )

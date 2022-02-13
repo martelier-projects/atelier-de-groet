@@ -48,6 +48,14 @@ export default function Nav() {
             </Link>
           </li>
         ))}
+        <li
+          key={`navigation-item-contact`}
+          className={styles['site-nav__item']}
+        >
+          <a href="#contact" className={styles['site-nav__link']}>
+            <span className={styles['site-nav__link-label']}>Contact</span>
+          </a>
+        </li>
       </ul>
     </nav>
   )

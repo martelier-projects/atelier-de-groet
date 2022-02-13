@@ -4,8 +4,8 @@ import Instagram from '../../../public/icons/instagram.svg'
 
 export default function Contact() {
   return (
-    <footer className={styles['contact']}>
-      <section className={styles['contact__inner']}>
+    <section className={styles['contact']}>
+      <div className={styles['contact__inner']}>
         <h2>Contact</h2>
         <div className={styles['contact__item']}>Marijke Takken</div>
         <address>
@@ -29,7 +29,7 @@ export default function Contact() {
             <Instagram />
           </a>
         </div>
-      </section>
-    </footer>
+      </div>
+    </section>
   )
 }
