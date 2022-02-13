@@ -13,6 +13,7 @@ sections:
   - type: image
     component: image
     image: /images/terras.jpg
+    size: large
   - type: text
     component: text
     title: Kosten

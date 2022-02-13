@@ -18,5 +18,13 @@ export default <NetlifyCmsField>{
       widget: 'hidden',
       default: 'image',
     },
+    {
+      label: 'Size',
+      name: 'size',
+      widget: 'select',
+      options: ['large', 'medium'],
+      default: 'large',
+      required: true,
+    },
   ],
 }

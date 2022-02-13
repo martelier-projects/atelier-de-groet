@@ -10,6 +10,7 @@ sections:
   - type: image
     component: image
     image: /images/whatsapp-image-2022-01-30-at-13.22.56.jpeg
+    size: medium
   - type: text-media
     order: image-text
     component: text-media
