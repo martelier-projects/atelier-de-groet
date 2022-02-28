@@ -4,6 +4,7 @@
 .size-list {
   @include text-small;
   display: flex;
+  margin: 0;
 }
 
 .item {

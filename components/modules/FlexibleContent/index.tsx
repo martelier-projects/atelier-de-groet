@@ -2,7 +2,8 @@ import type FlexibleContentInterface from './interface'
 
 import Text from '../../flexibles/Text'
 import DualText from '../../flexibles/DualText'
-import Gallery from '../../flexibles/Gallery'
+import Cards from '../../flexibles/Cards'
+import Paintings from '../../flexibles/Paintings'
 import Image from '../../flexibles/Image'
 import TextMedia from '../../flexibles/TextMedia'
 
@@ -11,7 +12,8 @@ import styles from './styles.module.scss'
 const flexibleMap = {
   'dual-text': DualText,
   text: Text,
-  gallery: Gallery,
+  cards: Cards,
+  paintings: Paintings,
   image: Image,
   'text-media': TextMedia,
 }

@@ -1,7 +1,7 @@
 import type NetlifyCmsField from '../../../interfaces/NetlifyCmsField'
 
 export default <NetlifyCmsField>{
-  label: 'Text',
+  label: 'Tekst',
   name: 'text',
   widget: 'object',
   summary: 'Text | {{fields.title}}',

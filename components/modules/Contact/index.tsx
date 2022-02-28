@@ -9,9 +9,9 @@ export default function Contact() {
         <h2>Contact</h2>
         <div className={styles['contact__item']}>Marijke Takken</div>
         <address>
-          Heereweg 247
+          Heereweg 230
           <br />
-          1873 GA Groet
+          1873 GD, Groet
         </address>
         <div className={styles['contact__item']}>
           <div>

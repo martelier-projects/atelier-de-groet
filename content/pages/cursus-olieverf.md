@@ -6,14 +6,20 @@ sections:
   - type: text
     component: text
     title: Cursus Olieverf
-    text: De lessen zijn inclusief het basismateriaal. Ervaring met tekenen en
-      schilderen is niet perse nodig. De lessen worden gegeven door [Marijke
-      Takken](http://www.atelierdegroet.nl/index.php?page=marijke). Men kan zich
-      opgeven op elk gewenst tijdstip, omdat men individueel werkt.
+    text: Olieverf droogt langzaam en laat dus lang bewerking toe (in tegenstelling
+      tot acrylverf wat snel droogt). Bovendien hoef je geen kunstenaar te zijn
+      om van schilderen te genieten. Ervaring met schilderen en tekenen is niet
+      nodig, kom gerust langs voor een proefles!
   - type: image
     component: image
     image: /images/terras.jpg
     size: large
+  - type: text
+    component: text
+    text: De lessen zijn inclusief het basismateriaal. Ervaring met tekenen en
+      schilderen is niet perse nodig. De lessen worden gegeven door Marijke
+      Takken. Men kan zich opgeven op elk gewenst tijdstip, omdat men
+      individueel werkt.
   - type: text
     component: text
     title: Kosten

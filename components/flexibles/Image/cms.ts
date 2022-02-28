@@ -1,7 +1,7 @@
 import type NetlifyCmsField from '../../../interfaces/NetlifyCmsField'
 
 export default <NetlifyCmsField>{
-  label: 'Image',
+  label: 'Afbeelding',
   name: 'image',
   widget: 'object',
   summary: 'Image',

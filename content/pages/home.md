@@ -1,12 +1,18 @@
 ---
-title: Het atelier
+title: Atelier De Groet
 url: /
 template: default
 sections:
   - type: text
     component: text
-    title: Het atelier
-    text: \[HIER EEN INTROTEXT OVER HET ATELIER]
+    title: Atelier De Groet
+    text: >-
+      Al heel lang ben ik verslingerd aan het medium olieverf. Ik hou van de
+      geur, de uitstraling en de consistentie die bijna onbegrensde bewerking
+      mogelijk maakt. 
+
+
+      Persoonlijk vind ik dat een schilderij gelaagd moet zijn. Een totaalbeeld van verschillende gemoedstoestanden. Dit geeft een schilderij een weelde aan karakter en kleuren.
   - type: image
     component: image
     size: large

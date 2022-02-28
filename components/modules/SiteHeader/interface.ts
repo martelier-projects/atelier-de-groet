@@ -1,8 +1,11 @@
-import type { MenuItem } from "../../../content/menu-items-interface";
+export interface MenuItem {
+  label: string
+  pageLink: string
+}
 
 export default interface ComponentInterface {
-    mainNavigationItems: MenuItem[];
-    secondaryNavigationItems: MenuItem[];
-    translationUrl: string;
-    language: string;
+  mainNavigationItems: MenuItem[]
+  secondaryNavigationItems: MenuItem[]
+  translationUrl: string
+  language: string
 }

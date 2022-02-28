@@ -4,8 +4,10 @@ items:
     pageLink: /
   - label: Cursus oliverf
     pageLink: /cursus-olieverf/
-  - label: Kaarten & schilderijen
-    pageLink: /werk/
+  - label: Schilderijen
+    pageLink: /schilderijen/
+  - label: Kaarten
+    pageLink: /kaarten/
   - label: Muurschilderingen
     pageLink: /muurschilderingen
 ---

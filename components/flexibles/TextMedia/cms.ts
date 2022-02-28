@@ -1,7 +1,7 @@
 import type NetlifyCmsField from '../../../interfaces/NetlifyCmsField'
 
 export default <NetlifyCmsField>{
-  label: 'Text media',
+  label: 'Tekst media',
   name: 'text-media',
   widget: 'object',
   summary: 'Text media | {{fields.title}}',

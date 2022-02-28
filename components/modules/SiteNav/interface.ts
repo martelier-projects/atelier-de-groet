@@ -1,6 +1,6 @@
-import type { MenuItem } from "../../../content/menu-items-interface";
+import type { MenuItem } from '../SiteHeader/interface'
 
 export default interface ComponentInterface {
-    menuItems: MenuItem[];
-    type?: "primary" | "secondary";
+  menuItems: MenuItem[]
+  type?: 'primary' | 'secondary'
 }
