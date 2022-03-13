@@ -6,10 +6,9 @@ sections:
   - type: text
     component: text
     title: Schilderijen
-    text:
-      Het meeste werk in geschilderd met olieverf. De strandaard verf die we ook
-      gebruiken bij mijn cursussen. Het is mogelijk om werken te kopen.
+    text: Mijn wandelingen in de omgeving van Groet , omgezet in
+      olieverfschilderijtjes. van 20 x 20 cm.
   - type: paintings
     component: paintings
-    title: ''
+    title: ""
 ---

@@ -22,37 +22,28 @@ sections:
     component: text-media
     title: Meer over het atelier
     text: >-
-      \[HIER MEER INFO OVER MARIJKE]
+      Marijke Takken is eigenaar van Atelier de Groet.  \
 
+      Zij schildert voornamelijk met olieverf en geeft ook les in dit medium.\
 
-      Marijke Takken schildert en geeft les in Atelier De Groet.\
+      Op deze site kunt U meer informatie vinden over de cursussen en over haar werk.\
 
-      Op deze site kunt u meer informatie vinden over haar werk en lezen over de cursussen voor beginners en gevorderden.\
-
-      Ook een agenda met de komende exposities is hier te vinden. Marijke Takken schildert en geeft les in Atelier De Groet.\
-
-      Op deze site kunt u meer informatie vinden over haar werk en lezen over de cursussen voor beginners en gevorderden.\
-
-      Ook een agenda met de komende exposities is hier te vinden.
+      De lessen zijn geschikt voor zowel beginners als gevorderden.
     image: /images/whatsapp-image-2022-01-30-at-13.42.14.jpeg
     imageAlt: f
   - type: text-media
     order: text-image
     component: text-media
     text: >-
-      \[HIER MEER INFO OVER DE CURSUSSEN]
+      Persoonlijk vindt ik van niet. Olieverf droogt langzaam en laat dus ook
+      lang bewerking toe ( in tegenstelling tot acrylverf wat snel droogt )
 
 
-      Marijke Takken schildert en geeft les in Atelier De Groet.\
+      Atelier de Groet is een geschikte plek om het eens te proberen. Het gebruiksmateriaal is inclusief de prijs ,dus het is niet nodig om de best prijzige verf eerst aan te schaffen als je een beginner bent. Je hoeft dus geen kunstenaar te zijn om van dit materiaal te genieten.
 
-      Op deze site kunt u meer informatie vinden over haar werk en lezen over de cursussen voor beginners en gevorderden.\
 
-      Ook een agenda met de komende exposities is hier te vinden. Marijke Takken schildert en geeft les in Atelier De Groet.\
-
-      Op deze site kunt u meer informatie vinden over haar werk en lezen over de cursussen voor beginners en gevorderden.\
-
-      Ook een agenda met de komende exposities is hier te vinden.
-    title: ""
+      Ervaring met tekenen en schilderen is niet nodig. Kom gerust langs om het een keer te proberen.
+    title: Is schilderen met olieverf alleen voor kunstenaars?
     image: /images/whatsapp-image-2022-01-30-at-13.42.31.jpeg
     imageAlt: " "
 ---

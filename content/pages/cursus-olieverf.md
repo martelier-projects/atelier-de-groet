@@ -39,13 +39,11 @@ sections:
     component: text
     title: Tijden
     text: |-
-      
-
       * Maandagavond: 19.30 - 22.00 uur *(Alleen op EVEN weken)*
       * Dinsdagochtend: 09.00 - 11.30 uur
       * Dinsdagmiddag: 14.00 -16.30 uur
       * Donderdagochtend: 09.00 - 11.30 uur
-      * Donderdagmiddag: 14.00- 16.30 uur *(Aleen op ONEVEN weken)*
+      * Donderdagmiddag: 14.00- 16.30 uur
       * Zaterdagmiddag: 14.00 - 16.30 uur
       * Open Atelier: Zaterdag elke ONEVEN week
 ---
