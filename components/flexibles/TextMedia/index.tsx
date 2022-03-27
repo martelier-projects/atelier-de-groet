@@ -22,7 +22,7 @@ export default function TextMedia({
   const mediaBlock = (
     <figure className={styles['text-media__media']}>
       <img
-        src={`${image}?w=800`}
+        src={`${image}?nf_resize=fit&w=800`}
         alt={imageAlt}
         className={styles['text-media__image']}
       />
