@@ -21,7 +21,11 @@ export default function TextMedia({
 
   const mediaBlock = (
     <figure className={styles['text-media__media']}>
-      <img src={image} alt={imageAlt} className={styles['text-media__image']} />
+      <img
+        src={`${image}?w=800`}
+        alt={imageAlt}
+        className={styles['text-media__image']}
+      />
     </figure>
   )
 

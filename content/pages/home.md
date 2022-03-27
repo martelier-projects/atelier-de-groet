@@ -29,7 +29,7 @@ sections:
       Op deze site kunt U meer informatie vinden over de cursussen en over haar werk.\
 
       De lessen zijn geschikt voor zowel beginners als gevorderden.
-    image: /images/whatsapp-image-2022-01-30-at-13.42.14.jpeg
+    image: /images/dsc_0062-4.jpg
     imageAlt: f
   - type: text-media
     order: text-image
@@ -44,6 +44,6 @@ sections:
 
       Ervaring met tekenen en schilderen is niet nodig. Kom gerust langs om het een keer te proberen.
     title: Is schilderen met olieverf alleen voor kunstenaars?
-    image: /images/whatsapp-image-2022-01-30-at-13.42.31.jpeg
+    image: /images/dsc_0075-4.jpg
     imageAlt: " "
 ---
