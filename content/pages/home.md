@@ -16,7 +16,7 @@ sections:
   - type: image
     component: image
     size: large
-    image: /images/terras.jpg
+    image: /images/img_6201.jpg
   - type: text-media
     order: image-text
     component: text-media
