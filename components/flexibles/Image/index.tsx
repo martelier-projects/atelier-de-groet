@@ -12,7 +12,11 @@ export default function Image({ image, size = 'large' }: ImageInterface) {
 
   return (
     <figure className={classNames}>
-      <img className={styles['image__image']} src={image} alt="" />
+      <img
+        className={styles['image__image']}
+        src={`${image}?nf_resize=fit&w=1200`}
+        alt=""
+      />
     </figure>
   )
 }
