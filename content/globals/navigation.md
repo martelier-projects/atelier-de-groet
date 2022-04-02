@@ -2,7 +2,7 @@
 items:
   - label: Het atelier
     pageLink: /
-  - label: Cursus oliverf
+  - label: Cursus olieverf
     pageLink: /cursus-olieverf/
   - label: Schilderijen
     pageLink: /schilderijen/
