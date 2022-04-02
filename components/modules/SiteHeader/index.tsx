@@ -69,7 +69,7 @@ export default function SiteHeader() {
             <Link href="/">
               <a className={styles['site-header__logo']}>
                 <img
-                  src="/images/logo.jpg"
+                  src="/images/logo.jpg?nf_resize=fit&w=400"
                   alt="Logo van Atelier de groet: een geschilderde hand"
                 />
                 <span className="sr-only">Home</span>

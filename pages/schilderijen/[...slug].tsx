@@ -11,13 +11,31 @@ import getSlugFromContext from '../../utils/get-slug-from-context/index'
 import WorkTemplate from '../../templates/Work'
 
 interface PageAttributes {
-  pageData: Painting
+  paintingData: Painting
 }
 
-export default function Paintings({ pageData }: PageAttributes) {
+export default function Paintings({ paintingData }: PageAttributes) {
   return (
     <>
-      <WorkTemplate {...pageData} />
+      <WorkTemplate itemData={paintingData}>
+        <>
+          <p>
+            Dit is een verzameling van 50 olieverfschilderijtjes van 20x20,
+            genaamd "wandelingen". Allemaal gemaakt naar foto’s van mijn
+            dagelijkse wandelingen in de buurt van Groet .
+          </p>
+          <p>
+            De schilderijen zijn te koop in mijn atelier (of via een mailtje
+            naar{' '}
+            <a
+              href={`mailto:atelierdegroet@gmail.com?subject=Schilderij: ${paintingData.title}`}
+            >
+              atelierdegroet@gmail.com
+            </a>
+            ) voor €50,- per stuk.
+          </p>
+        </>
+      </WorkTemplate>
     </>
   )
 }
@@ -29,13 +47,13 @@ export const getStaticProps: GetStaticProps = async context => {
   const slug = getSlugFromContext(context)
 
   const cardsPath = join(process.cwd(), 'content/paintings')
-  const cardData = getAllItems(cardsPath)
+  const paintingData = getAllItems(cardsPath)
     .map(fixDateFormat)
     .find(a => `/${slugify(a.title)}` === slug)
 
   return {
     props: {
-      pageData: cardData,
+      paintingData,
     },
   }
 }

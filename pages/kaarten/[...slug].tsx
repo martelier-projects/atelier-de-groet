@@ -11,13 +11,27 @@ import getSlugFromContext from '../../utils/get-slug-from-context/index'
 import WorkTemplate from '../../templates/Work'
 
 interface PageAttributes {
-  pageData: Card
+  cardData: Card
 }
 
-export default function Paintings({ pageData }: PageAttributes) {
+export default function Paintings({ cardData }: PageAttributes) {
   return (
     <>
-      <WorkTemplate {...pageData} />
+      <WorkTemplate itemData={cardData}>
+        <p>
+          De meeste kaarten zijn gemaakt in oliepastel. Allemaal ingelijst in
+          een passe-partout. De maten zijn divers.
+        </p>{' '}
+        <p>
+          De kaarten zijn te koop in mijn atelier (of via een mailtje naar{' '}
+          <a
+            href={`mailto:atelierdegroet@gmail.com?subject=Kaart: ${cardData.title}`}
+          >
+            ) atelierdegroet@gmail.com
+          </a>{' '}
+          voor €10,- per stuk.
+        </p>
+      </WorkTemplate>
     </>
   )
 }
@@ -35,7 +49,7 @@ export const getStaticProps: GetStaticProps = async context => {
 
   return {
     props: {
-      pageData: cardData,
+      cardData,
     },
   }
 }

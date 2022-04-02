@@ -2,16 +2,21 @@ import type Painting from '../../interfaces/Painting'
 import type Card from '../../interfaces/Card'
 
 import SiteHeader from '../../components/modules/SiteHeader'
+import Contact from '../../components/modules/Contact'
 
 import styles from './styles.module.scss'
 
+interface ComponentInterface {
+  itemData: Painting | Card
+  children: React.ReactNode
+}
+
 export default function WorkTemplate({
-  title,
-  image,
-  width = '',
-  height = '',
-  type,
-}: Painting | Card) {
+  itemData,
+  children,
+}: ComponentInterface) {
+  const { title, image, width = '', height = '', type } = itemData
+
   return (
     <>
       <SiteHeader />
@@ -19,22 +24,8 @@ export default function WorkTemplate({
       <main className={styles['work']}>
         <section>
           <div className={styles['work__content']}>
-            {/* <h1>Werk kopen</h1> */}
             <h1>{title}</h1>
-            <p>
-              Here is more info about the painting! Here is more info about the
-              painting! Here is more info about the painting! Here is more info
-              about the painting! Here is more info about the painting! Here is
-              more info about the painting! Here is more info about the
-              painting! Here is more info about the painting! Here is more info
-              about the painting! Here is more info about the painting! Here is
-              more info about the painting! Here is more info about the
-              painting!
-            </p>
-            <p>
-              Je kan me mailen op ..... of deze automatisch gegenereerde email
-              gebruiken....
-            </p>
+            {children}
           </div>
         </section>
 
@@ -52,6 +43,9 @@ export default function WorkTemplate({
           </figcaption>
         </figure>
       </main>
+      <footer id="contact">
+        <Contact />
+      </footer>
     </>
   )
 }
