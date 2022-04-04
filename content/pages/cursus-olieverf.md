@@ -22,19 +22,14 @@ sections:
       individueel werkt.
   - type: text
     component: text
-    title: Kosten
-    text: >-
-      * € 30,- per persoon per les.
-
+    title: Tarieven
+    text: |-
       * Inclusief basis materiaal verf, medium, penselen, koffie en thee.
-
       * Exclusief schildersdoek, verkrijgbaar in het atelier.
-
       * Schildersezels en schorten zijn aanwezig.
-
-      * Betaling per faktuur in lesblokken van schoolvakantie tot schoolvakantie a €30,- per les
-
-      * Als men iets meer vrijheid wil in aanwezigheid kan er een 8-rittenkaart gekocht worden voor €225,- Deze kaart blijft langdurig geldig.
+      * Tarieven\
+        Losse les kost €30,-\
+        Een 8-rittenkaart kost €225,- deze kaart blijft langdurig geldig.
   - type: text
     component: text
     title: Tijden
