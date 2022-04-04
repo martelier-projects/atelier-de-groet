@@ -42,8 +42,24 @@ sections:
       Atelier de Groet is een geschikte plek om het eens te proberen. Het gebruiksmateriaal is inclusief de prijs ,dus het is niet nodig om de best prijzige verf eerst aan te schaffen als je een beginner bent. Je hoeft dus geen kunstenaar te zijn om van dit materiaal te genieten.
 
 
-      Ervaring met tekenen en schilderen is niet nodig. Kom gerust langs om het een keer te proberen.
+      Ervaring met tekenen en schilderen is niet nodig. Kom gerust langs om sfeer te snuiven in mijn atelier.
     title: Is schilderen met olieverf alleen voor kunstenaars?
     image: /images/dsc_0075-4.jpg
     imageAlt: " "
+  - type: text
+    component: text
+    title: Agenda
+    text: >-
+      Geplande exposities
+
+
+      Op 11 en 12 juni 2022 is het SCHIK weekend. 
+
+
+      Het atelier is open met een expositie met het thema "Wandelingen". Schilderijen zijn gemaakt naar aanleiding van Marijke's wandelingen in de omgeving van Groet. 
+
+
+      SCHIK is de lokale kunstroute van Groet, Schoorl en Camperduin. Dit vindt twee jaarlijks plaats.\
+
+      https://www.schikinkunst.nl/
 ---
