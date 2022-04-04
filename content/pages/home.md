@@ -7,7 +7,7 @@ sections:
     component: text
     title: Atelier De Groet
     text: >-
-      Al heel lang ben ik verslingerd aan het medium olieverf. Ik hou van de
+      Al heel lang ben ik verslingerd aan het medium olieverf. Ik houd van de
       geur, de uitstraling en de consistentie die bijna onbegrensde bewerking
       mogelijk maakt. 
 
@@ -26,7 +26,7 @@ sections:
 
       Zij schildert voornamelijk met olieverf en geeft ook les in dit medium.\
 
-      Op deze site kunt U meer informatie vinden over de cursussen en over haar werk.\
+      Op deze site kan je meer informatie vinden over de cursussen en over haar werk.\
 
       De lessen zijn geschikt voor zowel beginners als gevorderden.
     image: /images/dsc_0062-4.jpg
