@@ -50,7 +50,7 @@ sections:
     component: text
     title: Agenda
     text: >-
-      Geplande exposities
+      <https://www.schikinkunst.nl/>Geplande exposities
 
 
       Op 11 en 12 juni 2022 is het SCHIK weekend. 
