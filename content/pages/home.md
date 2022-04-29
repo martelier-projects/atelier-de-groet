@@ -35,7 +35,7 @@ sections:
     order: text-image
     component: text-media
     text: >-
-      Persoonlijk vindt ik van niet. Olieverf droogt langzaam en laat dus ook
+      Persoonlijk vind ik van niet. Olieverf droogt langzaam en laat dus ook
       lang bewerking toe ( in tegenstelling tot acrylverf wat snel droogt )
 
 
