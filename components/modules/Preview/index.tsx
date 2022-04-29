@@ -21,7 +21,7 @@ export default function Preview({
         className={styles['image']}
         width={width}
         height={height}
-        src={image}
+        src={`${image}?nf_resize=fit&w=550`}
         alt=""
         loading="lazy"
       />
@@ -44,13 +44,6 @@ export default function Preview({
       </figcaption>
     </figure>
   )
-
-  /* <a
-        href="mailto:someone@yoursite.com?subject=Big%20News&body=Body-goes-here"
-        className={styles['buy-button']}
-        >
-        Koop
-      </a> */
 
   return sold ? (
     inner
