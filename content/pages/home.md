@@ -50,16 +50,10 @@ sections:
     component: text
     title: Agenda
     text: >-
-      <https://www.schikinkunst.nl/>Geplande exposities
+      https://www.staatsbosbeheer.nl/uit-in-de-natuur/locaties/buitencentrum-schoorlse-duinen
 
 
-      Op 11 en 12 juni 2022 is het SCHIK weekend. 
+      Expositie van 3 oktober tot 3 december 2022.\
 
-
-      Het atelier is open met een expositie met het thema "Wandelingen". Schilderijen zijn gemaakt naar aanleiding van Marijke's wandelingen in de omgeving van Groet. 
-
-
-      SCHIK is de lokale kunstroute van Groet, Schoorl en Camperduin. Dit vindt twee jaarlijks plaats.\
-
-      https://www.schikinkunst.nl/
+      Schilderijen met het thema "Wandelingen". Schilderijen zijn gemaakt naar aanleiding van Marijke's wandelingen in de omgeving van Groet.
 ---
