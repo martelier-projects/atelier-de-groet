@@ -11,6 +11,7 @@ sections:
       perfectioneren en te verfijnen. Het maakt niet uit of je een ervaren
       kunstenaar bent of nog nooit een penseel hebt aangeraakt; deze cursus
       staat open voor iedereen, ongeacht je ervaring met tekenen of schilderen.
+      Kom gerust langs om sfeer te snuiven.
   - type: image
     component: image
     image: /images/terras.jpg
