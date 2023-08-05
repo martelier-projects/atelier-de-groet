@@ -6,20 +6,25 @@ sections:
   - type: text
     component: text
     title: Cursus Olieverf
-    text: Olieverf droogt langzaam en laat dus lang bewerking toe (in tegenstelling
-      tot acrylverf wat snel droogt). Bovendien hoef je geen kunstenaar te zijn
-      om van schilderen te genieten. Ervaring met schilderen en tekenen is niet
-      nodig, kom gerust langs voor een proefles!
+    text: Ontdek zelf de magie van olieverfschilderen! Olieverf staat bekend om zijn
+      langzame droogtijd, waardoor je alle tijd hebt om je kunstwerk te
+      perfectioneren en te verfijnen. Het maakt niet uit of je een ervaren
+      kunstenaar bent of nog nooit een penseel hebt aangeraakt; deze cursus
+      staat open voor iedereen, ongeacht je ervaring met tekenen of schilderen.
+      Kom gerust langs voor een proefles!
   - type: image
     component: image
     image: /images/terras.jpg
     size: large
   - type: text
     component: text
-    text: De lessen zijn inclusief het basismateriaal. Ervaring met tekenen en
-      schilderen is niet perse nodig. De lessen worden gegeven door Marijke
-      Takken. Men kan zich opgeven op elk gewenst tijdstip, omdat men
-      individueel werkt.
+    text: Een van de voordelen van de cursus is dat alle lessen inclusief het
+      basismateriaal zijn. Je hebt dus direct toegang tot alle schilders
+      benodigdheden. We bieden vaste dagen en tijdstippen aan waarop je je kunt
+      inschrijven. Zo kun je de cursus inplannen op een moment dat het jou het
+      beste uitkomt. De lessen worden gegeven door Marijke Takken, ze zal je
+      begeleiden in advies en kleur. Tijdens de lessen werk je individueel,
+      zodat je de vrijheid hebt om je eigen tempo te bepalen.
   - type: text
     component: text
     title: Tarieven
@@ -34,11 +39,8 @@ sections:
     component: text
     title: Tijden
     text: |-
-      * Maandagavond: 19.30 - 22.00 uur *(Alleen op EVEN weken)*
       * Dinsdagochtend: 09.00 - 11.30 uur
       * Dinsdagmiddag: 14.00 -16.30 uur
-      * Donderdagochtend: 09.00 - 11.30 uur
       * Donderdagmiddag: 14.00- 16.30 uur
       * Zaterdagmiddag: 14.00 - 16.30 uur
-      * Open Atelier: Zaterdag elke ONEVEN week
 ---
