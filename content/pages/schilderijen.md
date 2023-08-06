@@ -6,8 +6,8 @@ sections:
   - type: text
     component: text
     title: Schilderijen
-    text: Mijn wandelingen in de omgeving van Groet , omgezet in
-      olieverfschilderijtjes. van 20 x 20 cm.
+    text: O﻿p deze pagina staan mijn schilderwerken. Klik op het kunstwerk voor
+      uitgebreidere informatie.
   - type: paintings
     component: paintings
     title: ""
