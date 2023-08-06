@@ -1,12 +1,10 @@
 ---
 sold: false
 image: /images/whatsapp-image-2023-07-03-at-14.13.17.jpeg
-title: Fantasielandschap - droombomen
+title: Fantasielandschap - Droombomen
 description: >-
-  Fantasielandschap 
-
-
-  Het schilderij is te koop in mijn atelier of via een mailtje naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
+  Het schilderij is te koop in mijn atelier of via een mailtje naar
+  [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 
 
   Geleverd in blank houten baklijst.
