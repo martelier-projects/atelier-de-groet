@@ -3,10 +3,8 @@ sold: false
 image: /images/afrikaanse-vrouwen.jpeg
 title: Afrikaanse vrouwen
 description: >-
-  D﻿e Afrikaanse vrouwen.
-
-
-  Het schilderij is te koop in mijn atelier of via een mailtje naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
+  Het schilderij is te koop in mijn atelier of via een mailtje
+  naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 
 
   Geleverd in blank houten baklijst.
