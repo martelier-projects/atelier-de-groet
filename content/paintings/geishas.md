@@ -3,10 +3,8 @@ sold: false
 image: /images/geishas.jpeg
 title: "Geisha's "
 description: >-
-  G﻿eisha's 
-
-
-  Het schilderij is te koop in mijn atelier of via een mailtje naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
+  Het schilderij is te koop in mijn atelier of via een mailtje
+  naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 
 
   Geleverd in blank houten baklijst.
