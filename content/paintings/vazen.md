@@ -1,8 +1,16 @@
 ---
 sold: false
 image: /images/vazen.jpg
-title: Vazen
-description: T﻿est test
+title: Marokkaanse vazen
+description: >-
+  Het schilderij is te koop in mijn atelier of via een mailtje
+  naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
+
+
+  Geleverd in blank houten baklijst.
+
+
+  € 1400,00
 width: "120"
 height: "80"
 type: Olieverf
