@@ -2,6 +2,7 @@ import { join } from 'path'
 import slugify from 'slugify'
 
 import type { GetStaticPaths, GetStaticProps } from 'next'
+import ReactMarkdown from 'react-markdown'
 import type Painting from '../../interfaces/Painting'
 
 import { getAllItems } from '../../utils/content/getItemSlugs'
@@ -18,23 +19,7 @@ export default function Paintings({ paintingData }: PageAttributes) {
   return (
     <>
       <WorkTemplate itemData={paintingData}>
-        <>
-          <p>
-            Dit is een verzameling van 50 olieverfschilderijtjes van 20x20,
-            genaamd "wandelingen". Allemaal gemaakt naar foto’s van mijn
-            dagelijkse wandelingen in de buurt van Groet .
-          </p>
-          <p>
-            De schilderijen zijn te koop in mijn atelier (of via een mailtje
-            naar{' '}
-            <a
-              href={`mailto:atelierdegroet@gmail.com?subject=Schilderij: ${paintingData.title}`}
-            >
-              atelierdegroet@gmail.com
-            </a>
-            ) voor €50,- per stuk.
-          </p>
-        </>
+        <ReactMarkdown>{paintingData.description}</ReactMarkdown>
       </WorkTemplate>
     </>
   )

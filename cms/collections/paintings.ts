@@ -15,7 +15,12 @@ export default {
       hint: 'Vink deze aan als het schilderij is verkocht',
     },
     { label: 'Afbeelding', name: 'image', widget: 'image' },
-    { label: 'Beschrijving', name: 'title', widget: 'string' },
+    { label: 'Titel', name: 'title', widget: 'string' },
+    {
+      label: 'Beschrijving',
+      name: 'description',
+      widget: 'markdown',
+    },
     {
       label: 'Breedte',
       name: 'width',
