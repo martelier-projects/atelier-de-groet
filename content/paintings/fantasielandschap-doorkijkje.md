@@ -3,10 +3,8 @@ sold: false
 image: /images/whatsapp-image-2023-07-03-at-14.19.35.jpeg
 title: Fantasielandschap - Doorkijkje
 description: >-
-  Fantasielandschap het Doorkijkje
-
-
-  Het schilderij is te koop in mijn atelier of via een mailtje naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
+  Het schilderij is te koop in mijn atelier of via een mailtje
+  naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 
 
   Geleverd in blank houten baklijst.
