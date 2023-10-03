@@ -50,21 +50,6 @@ sections:
     component: text
     title: Agenda
     text: >-
-      **Meyer & Meyer Schoorl**\
-
-      V﻿anaf 10 juli 2023 exposeert Marijke met olieverfschilderijen in Meyer & Meyer te Schoorl\
-
-      T﻿ot 30 augustus 2023 zijn haar schilderijen daar te bewonderen.\
-
-      \
-
-      Heereweg 29\
-
-      Schoorl \
-
-      https://www.meyerandmeyer.com/winkels/meyer-meyer-family-store-schoorl/
-
-
       **B﻿uitencentrum de Schoorlse duinen**\
 
       I﻿n de periode van december 2023 tot en met januari 2024 gaat Marijke exposeren in het Buitencentrum van de Schoorlse Duinen. Meer informatie wordt tzt verstrekt
