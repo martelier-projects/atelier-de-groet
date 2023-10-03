@@ -21,7 +21,7 @@ export default function CardPreview({ id }: CardPreviewInterface) {
       sold={card.sold || false}
       width="13"
       height="18"
-      url={`/kaarten/${slugify(card.title)}`}
+      url={`/oliepastel/${slugify(card.title)}`}
       type={card.type}
     />
   )

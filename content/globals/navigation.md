@@ -6,8 +6,8 @@ items:
     pageLink: /cursus-olieverf/
   - label: Schilderijen
     pageLink: /schilderijen/
-  - label: Kaarten
-    pageLink: /kaarten/
+  - label: Oliepastel
+    pageLink: /oliepastel/
   - label: Muurschilderingen
     pageLink: /muurschilderingen
 ---

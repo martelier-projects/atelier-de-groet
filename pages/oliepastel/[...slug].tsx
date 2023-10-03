@@ -61,7 +61,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const paintingsPath = join(process.cwd(), 'content/cards')
   const paintings = getAllItems(paintingsPath)
 
-  const paths = paintings.map(({ title }) => `/kaarten/${slugify(title)}`)
+  const paths = paintings.map(({ title }) => `/oliepastel/${slugify(title)}`)
 
   return {
     paths,

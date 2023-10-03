@@ -5,7 +5,7 @@ template: default
 sections:
   - type: text
     component: text
-    title: Mini-oliepastel
+    title: Oliepastel
     text: >-
       D﻿eze kleine kunstwerkjes worden gemaakt met het medium Oliepastel.
 
