@@ -1,7 +1,7 @@
 ---
 sold: false
 image: /images/wandeling-op-het-strand.jpeg
-title: de strandwandeling
+title: De strandwandeling
 description: >-
   Het schilderij is te koop in mijn atelier of via een mailtje
   naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
