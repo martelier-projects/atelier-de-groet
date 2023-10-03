@@ -1,7 +1,7 @@
 ---
 sold: false
 image: /images/whatsapp-image-2023-10-03-at-11.10.05.jpeg
-title: flowervrouwen
+title: Flowervrouwen
 description: >-
   Het schilderij is te koop in mijn atelier of via een mailtje
   naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
