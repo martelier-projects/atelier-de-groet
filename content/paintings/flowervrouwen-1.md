@@ -1,7 +1,7 @@
 ---
 sold: false
 image: /images/whatsapp-image-2023-10-03-at-11.13.09.jpeg
-title: Flowergodess
+title: Vrouw met bloem in het haar
 description: >-
   Het schilderij is te koop in mijn atelier of via een mailtje
   naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
