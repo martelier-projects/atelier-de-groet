@@ -7,7 +7,6 @@ description: >-
   naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 
 
-  Geleverd in blank houten baklijst.
 
 
   € 1250,00
