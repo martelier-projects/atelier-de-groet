@@ -1,7 +1,7 @@
 ---
 sold: false
-image: /images/camperduin-storm.jpeg
-title: Woeste noordzee
+image: /images/zee-bij-petten.jpeg
+title: Zee bij Petten
 description: >-
   Het schilderij is te koop in mijn atelier of via een mailtje
   naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
