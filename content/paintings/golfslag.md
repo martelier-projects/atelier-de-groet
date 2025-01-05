@@ -6,7 +6,7 @@ description: >-
   De schilderijen zijn te koop in mijn atelier of via een mailtje naar
   [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)\
 
-  voor €450,00
+  voor €400,00
 width: "75"
 height: "25"
 type: Olieverf
