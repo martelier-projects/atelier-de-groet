@@ -49,15 +49,7 @@ sections:
   - type: text
     component: text
     title: Agenda
-    text: >-
-      **B﻿uitencentrum de Schoorlse duinen**\
-
-      I﻿n de periode van december 2023 tot en met januari 2024 gaat Marijke exposeren in het Buitencentrum van de Schoorlse Duinen. Meer informatie wordt tzt verstrekt
-
-
-      Oorsprongweg 1\
-
-      1871 HA Schoorl\
-
-      https://www.staatsbosbeheer.nl/uit-in-de-natuur/locaties/buitencentrum-schoorlse-duinen
+    text: >-2
+       \
+       Expositie vanaf 6 januari tot 7april 2025, de Trog ( Willibrord terrein) in Heiloo
 ---
