@@ -10,7 +10,7 @@ description: >-
   Geleverd in blank houten baklijst.
 
 
-  €800,00
+  €750,00
 width: "100"
 height: "60"
 type: Olieverf
