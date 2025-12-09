@@ -33,8 +33,8 @@ sections:
       * Exclusief schildersdoek, verkrijgbaar in het atelier.
       * Schildersezels en schorten zijn aanwezig.
       * Tarieven\
-        Losse les kost €30,-\
-        Een 8-rittenkaart kost €225,- deze kaart blijft langdurig geldig.
+        Losse les kost €35,-\
+        Een 8-rittenkaart kost €250,- deze kaart blijft langdurig geldig.
   - type: text
     component: text
     title: Tijden
