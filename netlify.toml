@@ -1,5 +1,5 @@
 [build]
-  publish = "out" # or the correct output dir for your setup
+  publish = ".next"
   command = "npm run build"
 
 [[plugins]]
