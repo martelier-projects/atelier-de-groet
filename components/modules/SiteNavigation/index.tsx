@@ -43,16 +43,14 @@ export default function SiteNavigation({
             key={`navigation-item-${pageLink}`}
             className={styles['site-navigation__item']}
           >
-            <Link href={pageLink}>
-              <a
-                tabIndex={mobileMenuIsOpen ? 0 : -1}
-                className={styles['site-navigation__link']}
-                data-active={pathName === pageLink}
-                onMouseEnter={() => setIsHovering(true)}
-                onMouseLeave={() => setIsHovering(false)}
-              >
-                {label}
-              </a>
+            <Link
+              href={pageLink}
+              className={styles['site-navigation__link']}
+              data-active={pathName === pageLink}
+              onMouseEnter={() => setIsHovering(true)}
+              onMouseLeave={() => setIsHovering(false)}
+            >
+              {label}
             </Link>
           </li>
         ))}

@@ -11,8 +11,11 @@ module.exports = {
     })
 
     if (!isServer) {
-      config.node = {
-        fs: 'empty',
+      // Prevent webpack 5 from trying to polyfill fs on the client
+      config.resolve = config.resolve || {}
+      config.resolve.fallback = {
+        ...(config.resolve.fallback || {}),
+        fs: false,
       }
     }
 

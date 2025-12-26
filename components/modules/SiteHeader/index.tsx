@@ -53,7 +53,7 @@ export default function SiteHeader() {
     // Todo: move this to a global UI Context
     document.documentElement.classList.toggle(
       'has-active-site-nav',
-      !mobileNavIsOpen
+      !mobileNavIsOpen,
     )
   }
 
@@ -66,14 +66,12 @@ export default function SiteHeader() {
       <header className={headerClasses}>
         <FocusTrap active={mobileNavIsOpen}>
           <div className={styles['site-header__inner']}>
-            <Link href="/">
-              <a className={styles['site-header__logo']}>
-                <img
-                  src="/images/logo.jpg?nf_resize=fit&w=400"
-                  alt="Logo van Atelier de groet: een geschilderde hand"
-                />
-                <span className="sr-only">Home</span>
-              </a>
+            <Link href="/" className={styles['site-header__logo']}>
+              <img
+                src="/images/logo.jpg?nf_resize=fit&w=400"
+                alt="Logo van Atelier de groet: een geschilderde hand"
+              />
+              <span className="sr-only">Home</span>
             </Link>
 
             <button

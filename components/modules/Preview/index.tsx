@@ -48,8 +48,8 @@ export default function Preview({
   return sold ? (
     inner
   ) : (
-    <Link href={url}>
-      <a className={styles['wrapping-link']}>{inner}</a>
+    <Link href={url} className={styles['wrapping-link']}>
+      {inner}
     </Link>
   )
 }

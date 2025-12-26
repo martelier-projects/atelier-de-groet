@@ -35,16 +35,14 @@ export default function Nav() {
             key={`navigation-item-${pageLink}`}
             className={styles['site-nav__item']}
           >
-            <Link href={pageLink}>
-              <a
-                className={styles['site-nav__link']}
-                data-active={
-                  removeTrailingSlash(pathName) ===
-                  removeTrailingSlash(pageLink)
-                }
-              >
-                <span className={styles['site-nav__link-label']}>{label}</span>
-              </a>
+            <Link
+              href={pageLink}
+              className={styles['site-nav__link']}
+              data-active={
+                removeTrailingSlash(pathName) === removeTrailingSlash(pageLink)
+              }
+            >
+              <span className={styles['site-nav__link-label']}>{label}</span>
             </Link>
           </li>
         ))}
@@ -52,9 +50,9 @@ export default function Nav() {
           key={`navigation-item-contact`}
           className={styles['site-nav__item']}
         >
-          <a href="#contact" className={styles['site-nav__link']}>
+          <Link href="#contact" className={styles['site-nav__link']}>
             <span className={styles['site-nav__link-label']}>Contact</span>
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

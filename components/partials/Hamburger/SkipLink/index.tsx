@@ -9,10 +9,8 @@ export default function SkipLink({
   label = 'Ga naar de content',
 }: SkipLinkInterface) {
   return (
-    <Link href={`#${id}`}>
-      <a className={styles['skip-link']} id="skip-link">
-        {label}
-      </a>
+    <Link href={`#${id}`} className={styles['skip-link']} id="skip-link">
+      {label}
     </Link>
   )
 }

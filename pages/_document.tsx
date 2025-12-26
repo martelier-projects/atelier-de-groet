@@ -14,13 +14,6 @@ class MyDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
-          {/* <link
-            rel="preload"
-            href="/fonts/lora/lora-v17-latin-500italic.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
-          /> */}
           <link
             rel="preload"
             href="/fonts/poppins/poppins-v15-latin-300.woff2"
