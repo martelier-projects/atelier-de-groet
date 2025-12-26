@@ -1,0 +1,8 @@
+[build]
+  command = "npm run deploy"
+  publish = "out"
+
+[build.environment]
+  # Skip Netlify's Next.js plugin since this site is a static export
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
