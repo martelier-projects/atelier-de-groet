@@ -1,7 +1,7 @@
 ---
 sold: false
 image: /images/50x70-stenen-in-het-water.jpeg
-title: Stenen in het water
+title: Stenen onder water
 description: .
 width: "50"
 height: "70"
