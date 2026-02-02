@@ -1,7 +1,7 @@
 ---
 sold: false
-image: /images/whatsapp-image-2026-02-02-at-13.32.20-2-.jpeg
-title: Stenen onder water
+image: /images/in-water.jpeg
+title: Stenen in water
 description: .
 width: "60"
 height: "90"
