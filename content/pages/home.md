@@ -51,5 +51,11 @@ sections:
     title: Agenda
     text: >-2
        \
-       Expositie vanaf 6 januari tot 7april 2025, de Trog ( Willibrord terrein) in Heiloo
+      Expositie, vanaf 6 maart 2026 tot 31 juli op de 1e verdieping van het nieuwe deel van het Noord West ziekenhuis.
+
+
+      Schik kunstroute Schoorl /Groet 12,13 en 14 juni in mijn atelier, achter boerderij Heereweg 230 in Groet
+
+
+      Expositie, 29 augustus tot eind november in het noordwest ziekenhuis bij de grote trap.
 ---
