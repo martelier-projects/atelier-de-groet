@@ -7,12 +7,6 @@ description: >-
 
 
   Het schilderij is te koop in mijn atelier of via een mailtje naar atelierdegroet@gmail.com
-
-
-  Geleverd in blank houten baklijst.
-
-
-  € ﻿490,00
 width: "30"
 height: "40"
 type: Olieverf
