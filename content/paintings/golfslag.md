@@ -2,11 +2,8 @@
 sold: false
 image: /images/golfslag.jpeg
 title: Golfslag
-description: >-
-  De schilderijen zijn te koop in mijn atelier of via een mailtje naar
-  [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)\
-
-  voor €400,00
+description: De schilderijen zijn te koop in mijn atelier of via een mailtje
+  naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 width: "75"
 height: "25"
 type: Olieverf
