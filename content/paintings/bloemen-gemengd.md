@@ -2,11 +2,8 @@
 sold: false
 image: /images/bloemen-gemengd.jpg
 title: Bloemen gemengd
-description: >-
-  De schilderijen zijn te koop in mijn atelier of via een mailtje naar
-  [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)\
-
-  voor € 700,00
+description: De schilderijen zijn te koop in mijn atelier of via een mailtje
+  naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 width: "60"
 height: "90"
 type: Olieverf
