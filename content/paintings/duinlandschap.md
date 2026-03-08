@@ -2,11 +2,8 @@
 sold: false
 image: /images/duinlandschap.jpeg
 title: Duinlandschap
-description: >-
-  De schilderijen zijn te koop in mijn atelier of via een mailtje naar
-  [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)\
-
-  voor € 750,00
+description: De schilderijen zijn te koop in mijn atelier of via een mailtje
+  naar [atelierdegroet@gmail.com](mailto:atelierdegroet@gmail.com)
 width: "100"
 height: "60"
 type: Olieverf
