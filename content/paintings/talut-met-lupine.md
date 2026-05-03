@@ -1,7 +1,7 @@
 ---
 sold: false
 image: /images/100x100talut-met-lupine.jpeg
-title: Talut met Lupine
+title: Talud met Lupine
 description: .
 width: "100"
 height: "100"
